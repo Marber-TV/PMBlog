@@ -1,0 +1,125 @@
+form{
+    display: none;
+}
+
+.formularios{
+    margin-top: 60px;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(235, 243, 252);
+
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 95vw;
+}
+
+.carousel-item img {
+    height: 300px; 
+    object-fit: cover;
+}
+
+#Entradas{
+    margin-top: 16px;
+}
+
+.articulo{
+    background-color: white;
+}
+
+.white-link {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navPablo {
+    color: rgb(0, 0, 0);  
+    border-radius:10px;
+   
+}
+
+
+.navPablo:hover {
+    background-color: rgb(0, 105, 217);
+    color: rgb(255, 255, 255);
+    
+}   
+
+.arreglo{
+    flex-basis: 0; 
+}
+.presentacion{
+    margin-bottom: 30px;
+}
+
+.navMenu {
+    margin: auto;
+    background-color: rgba(0, 105, 217, 0.201);
+    width: 80%; 
+    border-radius: 30px;
+}
+
+.navAcceso {
+    color: black;
+    border-radius:10px;
+   
+}
+.navAcceso:hover {
+    background-color: rgba(0, 105, 217, 0.201);
+    color: rgb(255, 255, 255);
+    
+}   
+
+.botonEnviar{
+    background-color: rgba(0, 105, 217, 0.201);
+    color: rgb(0, 0, 0);
+}
+
+ul.pagination li.page-item a.page-link {
+    background-color: rgb(204, 225, 247);
+    color: black;
+}
+
+ul.pagination li.page-item a.page-link:hover {
+    background-color: rgb(0, 105, 217);
+    color: white;
+}
+
+
+
+.botonComentario{
+    background-color: rgb(204, 225, 247);
+    color: rgb(0, 0, 0);
+}
+
+.btn-custom {
+    background-color:rgba(0, 105, 217, 0.201);
+    color: black;
+}
+
+.btn-custom:hover {
+    background-color: rgb(0, 105, 217);
+    color: white;
+}
+
+.imagen-blog {
+    float: right;
+    margin: 0 0 10px 10px;
+    width: 300px;
+}
+
+.logo {
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
