@@ -1,6 +1,6 @@
 "use strict";
 
-const rutaBackend = "http://localhost/app-js/backend/";
+const rutaBackend = "../backend/";
 
 /**
  * Realiza peticiones AJAX de tipo GET
